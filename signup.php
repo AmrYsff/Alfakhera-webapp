@@ -56,42 +56,42 @@
         include 'header.php';
         ?>
     </header>
-    <div class="container">
-        <form action="" method="POST">
-            <h1>Signup</h1>
+    <main>
+        <div class="container">
+            <form action="" method="POST">
+                <h1>Signup</h1>
 
-            <div class="input-box">
-                <label for="first-name">First name</label>
-                <input type="text" id="first-name" name="first_name" required>    
-            </div>
+                <div class="input-box">
+                    <label for="first-name">First name</label>
+                    <input type="text" id="first-name" name="first_name" required>
+                </div>
 
-            <div class="input-box">
-                <label for="last-name">Last name</label>
-                <input type="text" id="last-name" name="last_name" required>    
-            </div>
+                <div class="input-box">
+                    <label for="last-name">Last name</label>
+                    <input type="text" id="last-name" name="last_name" required>
+                </div>
 
-            <div class="input-box">
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>    
-            </div>
-
-
-            <div class="input-box">
-                <label for="password">Password:</label>
-                <input type="password" id="password" name="password" required>
-            </div>
-
-            <button type="submit" name="register" class="btn">Signup</button>
-
-            
-            <div class="register-link">
-                <p>Already have an account ? <a href="/alfakhera/signin.php">Login</a></p>
-            </div>
-
-        </form>
-    </div>
+                <div class="input-box">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
 
 
+                <div class="input-box">
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password" required>
+                </div>
+
+                <button type="submit" name="register" class="btn">Signup</button>
+
+
+                <div class="register-link">
+                    <p>Already have an account ? <a href="/alfakhera/signin.php">Login</a></p>
+                </div>
+
+            </form>
+        </div>
+    </main>
 
 </body>
 
