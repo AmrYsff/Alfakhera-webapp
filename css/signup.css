@@ -9,7 +9,9 @@ body {
     align-items: center;
     min-height: 100vh;
 }
-
+main{
+    margin-top: 100px;
+}
 .container{
     width: 420px;
     background-color: #66b49f ;
