@@ -9,7 +9,8 @@ body {
     flex-wrap: wrap;
     flex-direction: column;
     min-height: 100vh;
-    font-family: 'Open Sans', sans-serif;   
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 70px;
 }
 
 main section{
